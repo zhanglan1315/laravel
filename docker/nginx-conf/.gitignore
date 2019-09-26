@@ -1,0 +1,4 @@
+# *
+# 暂时保留配置文件
+!.gitignore
+!app.conf.example
