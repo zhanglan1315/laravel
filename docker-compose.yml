@@ -33,6 +33,7 @@ services:
       POSTGRES_DB: ${PG_DATABASE}
       POSTGRES_USER: ${PG_USERNAME}
       POSTGRES_PASSWORD: ${PG_PASSWORD}
+      PGDATA: /tmp
     volumes:
       - ./docker/pg-data:/var/lib/postgresql/data
 
